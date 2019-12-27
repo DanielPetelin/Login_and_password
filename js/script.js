@@ -1,12 +1,12 @@
 document.getElementById('check').onclick = function() {
-    var login = document.getElementById('login');
-    var password = document.getElementById('password');
+    var login = document.getElementById('login').value;
+    var password = document.getElementById('password').value;
 
-    if (login == 'Иван' && password == '334455') {
+    if (login == 'ivan' && password == '334455') {
         alert('Добро пожаловать!')
-    } else if (login == 'Алекс' && password == '777') {
+    } else if (login == 'alex' && password == '777') {
         alert('Добро пожаловать!');
-    } else if (login == 'Пётер' && password == 'b5678') {
+    } else if (login == 'petr' && password == 'b5678') {
         alert('Добро пожаловать!')
     } else {
         alert('Пороль или логин неверен');
