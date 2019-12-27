@@ -1,3 +1,5 @@
+//Функция, которая будет проверять логин и пороль.
+
 document.getElementById('check').onclick = function() {
     var login = document.getElementById('login').value;
     var password = document.getElementById('password').value;
